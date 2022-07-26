@@ -12,7 +12,7 @@ const nextConfig = {
 
     return config;
   },
-  basePath: "/beet",
+  basePath: "/beer",
   assetPrefix: "/beer",
 }
 
