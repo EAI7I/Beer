@@ -14,7 +14,7 @@ interface BeerPostProps {
 export const BeerPost: FC<BeerPostProps> = ({image_url, name, tagline, abv, description, food_pairing}) => {
     return (
         <div className={s.short_info}>
-            {image_url ? <img src={image_url}/> : <img src="/assets/no-photos.png"/>}
+            {image_url ? <img src={image_url}/> : <img src="/beer/assets/no-photos.png"/>}
             <div className={s.text}>
                 <h2 className={s.name}>{name}</h2>
                 <h5 className={s.tagline}>{tagline}</h5>
