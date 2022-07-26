@@ -16,7 +16,7 @@ export const BeerCard: FC<BeerCardProps> = React.memo(({id, src, name, descripti
     return (
         <Link href={`/beer/${id}`}>
             <div className={s.card}>
-                {src ? <img src={src}/> : <img src="/assets/no-photos.png"/>}
+                {src ? <img src={src}/> : <img src={`${process.env.IMAGE}/no-photos.png`}/>}
                 <h3>{name}</h3>
                 <h4>{description.length > 140 ? `${description.substring(0, 140)}...` : description}</h4>
             </div>
