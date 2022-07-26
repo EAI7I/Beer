@@ -12,8 +12,8 @@ const nextConfig = {
 
     return config;
   },
-  basePath: "/nextjs-pages",
-  assetPrefix: "/nextjs-pages",
+  basePath: "/beet",
+  assetPrefix: "/beer",
 }
 
 module.exports = nextConfig
